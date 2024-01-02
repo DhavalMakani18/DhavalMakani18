@@ -7,7 +7,7 @@ public class questions_1 {
 
         /*Qustion 1 => Inaprogram,input3numbers:A,BandC.Youhavetooutputtheaverageofthese 3 numbers.
          */
-        
+
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
@@ -22,8 +22,8 @@ public class questions_1 {
             formula Area = a * a
         */
 
-            float sqr = sc.nextFloat();
-            float area = sqr * sqr;
+            float side = sc.nextFloat();
+            float area = side * side;
             System.out.println(area);
         
         
