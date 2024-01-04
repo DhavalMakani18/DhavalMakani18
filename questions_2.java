@@ -150,7 +150,7 @@ public class questions_2 {
         }
         */
 
-        /* */
+        /* 
         System.out.println("Enter the year");
         int year = sc.nextInt();
 
@@ -177,6 +177,8 @@ public class questions_2 {
         else {
             System.out.println("Not Leap Year");
         }
+        */
+        
     }
     
 }
