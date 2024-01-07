@@ -3,8 +3,8 @@ import java.util.*;
 public class questions_4 {
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number");
-        int n = sc.nextInt();
+        // System.out.println("Enter the number");
+        // int n = sc.nextInt();
 
         //SIMPLE STAR PATTERN
         // for(int i = 1; i <= n; i++){
@@ -315,24 +315,21 @@ public class questions_4 {
 
 
         // NUMBER PYRAMID pattern
-
-
-        int st = 1;
-        int sp = n-1;
-        int no_of_line = 1;
-
-        while(no_of_line <=n){
-            for(int i=1; i<=sp; i++){
-                System.out.print("  ");
-            }
-            for(int i=1; i<=st; i++){
-                System.out.print(no_of_line+ "   ");
-            }
-            System.out.println();
-            st++;
-            sp--;
-            no_of_line++;
-        }
+        // int st = 1;
+        // int sp = n-1;
+        // int no_of_line = 1;
+        // while(no_of_line <=n){
+        //     for(int i=1; i<=sp; i++){
+        //         System.out.print("  ");
+        //     }
+        //     for(int i=1; i<=st; i++){
+        //         System.out.print(no_of_line + "   ");
+        //     }
+        //     System.out.println();
+        //     st++;
+        //     sp--;
+        //     no_of_line++;
+        // }
 
 
 
@@ -362,10 +359,6 @@ public class questions_4 {
         //     st=st+2;
         //     number_of_line++;
         // }
-
-        
-
-
 
         sc.close();
     }
