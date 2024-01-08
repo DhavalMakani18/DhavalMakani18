@@ -3,8 +3,8 @@ import java.util.*;
 public class questions_4 {
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter the number");
-        // int n = sc.nextInt();
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
 
         //SIMPLE STAR PATTERN
         // for(int i = 1; i <= n; i++){
@@ -334,32 +334,33 @@ public class questions_4 {
 
 
         // PALINDROMIC Pattern with Numbers pattern
-        // int number_of_line = 1;
-        // int sp = n - 1;
-        // int st = 1;
-        // // pallindromic pattern with numbers 
-        // while(number_of_line<=n){
-        //     // print spaces
-        //     for(int i=1; i<=sp; i++){
-        //         System.out.print("  ");
-        //     }
-        //     // print stars -> replace with numbers 
-        //     int current_num = number_of_line;
-        //     for(int i=1; i<=st; i++){
-        //         System.out.print(current_num+" ");
-        //         if(i <= st/2){
-        //             current_num--;
-        //         } else {
-        //             current_num++;
-        //         }
-        //     }
-        //     // next line
-        //     System.out.println();
-        //     sp--;
-        //     st=st+2;
-        //     number_of_line++;
-        // }
+        int number_of_line = 1;
+        int sp = n - 1;
+        int st = 1;
+        // pallindromic pattern with numbers 
+        while(number_of_line<=n){
+            // print spaces
+            for(int i=1; i<=sp; i++){
+                System.out.print("  ");
+            }
+            // print stars -> replace with numbers 
+            int current_num = number_of_line;
+            for(int i=1; i<=st; i++){
+                System.out.print(current_num+" ");
+                if(i <= st/2){
+                    current_num--;
+                } else {
+                    current_num++;
+                }
+            }
+            // next line
+            System.out.println();
+            sp--;
+            st=st+2;
+            number_of_line++;
+        }
 
         sc.close();
     }
+
 }
