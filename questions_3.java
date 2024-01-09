@@ -54,16 +54,15 @@ public class questions_3 {
         //     System.out.println(n);
         // } while (true);
 
+
         // int i = 0;
-        // while (i <10){
-            
+        // while (i <10){   
         //     i++;
         //     if(i==5){
         //         continue;
         //     }
         // System.out.println(i);
         // }
-
         // for(int j = 1; j <=10; j++){
         //     if(j==5){
         //         continue;
@@ -82,8 +81,9 @@ public class questions_3 {
         //     System.out.println(n);
         // } while(true);
 
+
+        // FOR PRIME OR NOT
         // int n = sc.nextInt();
-    
         // if (n==2){
         //     System.out.println("Number is prime");
         // }
